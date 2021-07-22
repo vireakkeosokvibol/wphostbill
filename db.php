@@ -1,5 +1,10 @@
 <?php
 
+// include only file
+if (!defined('ABSPATH')) {
+  die('Do not open this file directly.');
+}
+
 // Create table on plugin activation
 
 $wphostbill_db_version = '0.1';

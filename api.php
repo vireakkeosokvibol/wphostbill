@@ -1,5 +1,10 @@
 <?php
 
+// include only file
+if (!defined('ABSPATH')) {
+    die('Do not open this file directly.');
+}
+
 function wchb_posts() {
     return 'test';
 }
